@@ -1,7 +1,7 @@
 url = require 'url'
 https = require 'https'
 
-serviceUrl = 'https://ec.europa.eu/taxation_customs/vies/services/checkVatService'
+serviceUrl = 'https://cors-anywhere.herokuapp.com/https://ec.europa.eu/taxation_customs/vies/services/checkVatService'
 
 parsedUrl = url.parse serviceUrl
 
